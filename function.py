@@ -1,20 +1,20 @@
-import math
-import exchange
+# Lab 9
+# This is a function that returns a string
+def func():
+    return "This is a function"
 
 
-def _func():
-    a = input("Please enter a number: ")
-    b = math.sqrt(a)
-    print(b)
+# To use it, simply call its name with the ()
+func()
 
 
-# for i in range(4):
-#     _func()
-
-a = 2.1
-# print("this costs ${:.2f}".format(a))
+# You can also create your own custom functions with parameters
+def func2(a, b):
+    return a + b
 
 
-print(exchange.ExchangeRate.sgd_to_usd(a))
+# For functions with parameters, you will need to supply the values/variables to replace the parameters
+func2(1, 2)
 
-
+c = 5
+func(1, c)

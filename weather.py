@@ -2,7 +2,7 @@ import requests
 
 url = "https://weatherbit-v1-mashape.p.rapidapi.com/current"
 
-querystring = {"lang":"en","lon":"<required>","lat":"<required>"}
+querystring = {"lang": "en", "lon": "<required>", "lat": "<required>"}
 
 headers = {
     'x-rapidapi-host': "weatherbit-v1-mashape.p.rapidapi.com",
