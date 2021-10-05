@@ -12,7 +12,7 @@ class Application(tk.Frame):
     canvas = ''
     image = []
 
-    def __init__(self, master=None):
+    def __init__(self, master=None):  # constructor
         super().__init__(master)
         self.master = master
         self.master.geometry("500x700")
