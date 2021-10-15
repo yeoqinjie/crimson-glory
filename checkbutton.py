@@ -10,7 +10,7 @@ python = tk.BooleanVar()
 cplusplus = tk.BooleanVar()
 # create a new checkbutton
 python_checkbox = tk.Checkbutton(text="Python", variable=python)
-cplusplus_checkboc = tk.Checkbutton(text="C++", variable=cplusplus)
+cplusplus_checkbox = tk.Checkbutton(text="C++", variable=cplusplus)
 
 label = tk.Label(text="Hello World",
                  width=10,  # width of 10 'o'
@@ -19,5 +19,9 @@ label = tk.Label(text="Hello World",
                  background="black")  # background color
 
 label.text = f''
+
+python_checkbox.pack()
+cplusplus_checkbox.pack()
+label.pack()
 
 window.mainloop()

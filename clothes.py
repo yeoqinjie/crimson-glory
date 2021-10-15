@@ -3,6 +3,7 @@ from PIL import ImageTk, Image
 
 
 class Application(tk.Frame):
+    # variables
     gender = ''
     labeltext = ''
     radio_male = ''
@@ -49,5 +50,5 @@ class Application(tk.Frame):
 
 
 window = tk.Tk()
-app = Application(master=window)
+app = Application(master=window)  # create object 'app'
 app.mainloop()

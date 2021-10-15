@@ -8,8 +8,8 @@ window.title('Window Title')
 
 # create a new label
 label = tk.Label(text="Hello World",
-                 width=10,  # width of 10 'o'
-                 height=10,  # height of 10 'o'
+                 width=10,  # width of 10 '0'
+                 height=10,  # height of 10 '0'
                  foreground="white",  # text color
                  background="black")  # background color
 
