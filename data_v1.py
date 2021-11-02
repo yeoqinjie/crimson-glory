@@ -1,6 +1,8 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.animation as ani
+import ssl
+ssl._create_default_https_context = ssl._create_unverified_context
 
 df = pd.DataFrame(
     {
@@ -17,7 +19,9 @@ df = pd.DataFrame(
 )
 
 data = pd.read_csv('hollywood.csv', header=0, index_col=False)
+
 data2 = pd.read_csv('https://public.tableau.com/s/sites/default/files/media/HollywoodsMostProfitableStories.csv', header=0, index_col=False)
+data3 = pd.read_csv('https://public.tableau.com/s/sites/default/files/media/fifa18_clean.csv', header=0, index_col=False)
 
 df.sort_values(by="Age")
 df[['First Name', 'Last Name']] = df.Name.str.split(" ", expand=True)
