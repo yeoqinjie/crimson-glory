@@ -19,6 +19,7 @@ df = pd.DataFrame(
 )
 
 data = pd.read_csv('hollywood.csv', header=0, index_col=False)
+pd.read_excel()
 
 data2 = pd.read_csv('https://public.tableau.com/s/sites/default/files/media/HollywoodsMostProfitableStories.csv', header=0, index_col=False)
 data3 = pd.read_csv('https://public.tableau.com/s/sites/default/files/media/fifa18_clean.csv', header=0, index_col=False)
