@@ -1,17 +1,35 @@
-first_name = 'Alvin'
-last_name = 'Yeo'
-email_address = 'email@address.com'
-address = '143 Cecil St Singapore 079909'
-mobile = 84285712
-is_student = True
+list = [1, 2, 3]
 
-str = ''
-num = 0
-price = 12.45
-abc = None  # Null pointer
+for v1 in list:
+    v1 += 5  # v1 = v1 + 5
+    v1 *= 2.4
+    print(v1)
 
-# print(first_name, email_address)
-# print(last_name)
+# items in the list/dict
+apple = {"color": "red", "qty": 20, "cost": 2.45}
+orange = {"color": "orange", "qty": 10, "cost": 3.90, 'sweetness': 10}
 
-print(f'My name is {first_name} {last_name}')
-print(f'The price is ${price}')
+for i, j in apple.items():
+    print(f'{i} is {j}')
+
+# number of times
+for n in range(6):
+    print(n)
+
+# rows = [1, 2, 3]
+# columns = [1, 2, 3]
+# depth = [1, 2, 3, 4]
+#
+# for r in rows:
+#     for c in columns:
+#         for d in depth:
+#             print(f'r:{r}, c:{c}, d:{d}')
+
+a = int(input("Please enter a number: "))
+
+while a % 3 == 0:
+    print(a / 3)
+    a = int(input("Please enter another number: "))
+
+
+
