@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.8" project-jdk-type="Python SDK" />
+  <component name="Black">
+    <option name="enabledOnSave" value="true" />
+    <option name="executionMode" value="BINARY" />
+    <option name="pathToExecutable" value="/Library/Frameworks/Python.framework/Versions/3.8/bin/black" />
+    <option name="sdkUUID" value="24626e7c-0d5a-4a1a-948e-9f4c5c714edb" />
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.10 (crimson-ruby)" project-jdk-type="Python SDK" />
 </project>

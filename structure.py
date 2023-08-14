@@ -1,14 +1,11 @@
-var_abc = 10
+var_a = 10
 var_b = 11
 
-if var_abc < var_b:
-    print('var_b is bigger')
-
-a = 10
-b = 11
-x = a + b
-x = a - b
-y = a + b
-y = a - b
-
+if var_a == var_b:
+    print('var_a is equal to var_b')
+else:
+    if var_a < var_b:
+        print('var_a is smaller')
+    else:
+        print('var_b is smaller')
 
